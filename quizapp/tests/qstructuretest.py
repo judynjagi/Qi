@@ -10,14 +10,18 @@ class TestQStructure(unittest.TestCase):
         query2 = Qstructure('Q4', 'A4', '')
         self.assertTrue(query2, 'Your answer is incorrect, try again')
 
-    def test_answ_if_lower_case(self):
-        query3= Qstructure('A4')
-        self.assertEqual(query3, 'a')
+    def test_answer_out_of_range(self):
+        query5 = Qstructure('Q4', 'A4', 'E4')
+        self.assertTrue(query5, 'Your answer is incorrect, try again')
 
     def test_answ_if_upper_case(self):
-        query3= Qstructure.correct_answer('A4')
-        self.assertEqual(query3, 'A',)
+        query3= Qstructure('Q1', 'A1', 'C1')
+        self.assertTrue(query3, 'C',)
 
+    def test_if_choices_are_letters(self):
+        query4= Qstructure('Q1', 'A1', 'C1')
+        self.assertTrue(query4, 'a')
 
+   
 if __name__ == '__main__':
 		unittest.main()
