@@ -1,0 +1,44 @@
+{"quiz_name": "Python ",
+"time":50,
+"questions":[{
+    "q_questions":"Which of the following data types is not supported in python?",
+     
+    "options": {
+        "A":"Numbers",
+        "B":"String", 
+        "C":"List", 
+        "D":"Slice"},
+     
+     "answer": "D"
+
+    },{
+    "q_questions":"Which of the following function convert a String to a tuple in python??",
+    "choices": {
+        "A":"set(x)",
+        "B":"dic(d)", 
+        "C":"frozenset(s)", 
+        "D":"char(x)"},
+    "answer": "D"
+
+    },{
+    "q_questions":"Which of the following statement causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating? ?",
+    "options": {
+        "A":"break",
+        "B":"continue", 
+        "C":"pass", 
+        "D":"none of the above"},
+    "answer": "B"
+
+
+    },{
+    "q_questions":"Which of the following function checks in a string that all characters are in lowercase?",
+    "options": {
+        "A":"islower()",
+        "B":"isnumeric()", 
+        "C":"isspace()", 
+        "D":"istitle()"},
+    "answer": "A" 
+
+    }
+]
+}
