@@ -1,7 +1,7 @@
 {"quiz_name": "Networking",
-"time":40,
-"questions":[{
-    "q_questions":"What type of network must a home user access in order to do online shopping?",
+"time":10,
+"quiz":[{
+    "questions":"What type of network must a home user access in order to do online shopping?",
      
     "options": {
         "A":"The Internet",
@@ -12,8 +12,8 @@
      "answer": "A"
 
     },{
-    "q_questions":"Choose one function of intermediary devices on a network??",
-    "choices": {
+    "questions":"Choose one function of intermediary devices on a network??",
+    "options": {
         "A":"They are the primary source and providers of information and services to end devices.",
         "B":"They form the interface between the human network and the underlying communication network.", 
         "C":"They run applications that support collaboration for business.", 
@@ -21,7 +21,7 @@
     "answer": "D"
 
     },{
-    "q_questions":" Which description correctly defines a converged network?",
+    "questions":" Which description correctly defines a converged network?",
     "options": {
         "A":"a network that allows users to interact directly with each other over multiple channels",
         "B":"a network that is limited to exchanging character-based information", 
@@ -31,7 +31,7 @@
 
 
     },{
-    "q_questions":"Which two Internet connection options do not require that physical cables be run to the building?",
+    "questions":"Which two Internet connection options do not require that physical cables be run to the building?",
     "options": {
         "A":"Cellular",
         "B":"Dialup", 
