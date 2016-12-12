@@ -87,7 +87,7 @@ def quiz_content(quizie):
 
             new_list.append (qstructure)
         
-        return {"time":time, "quiz":new_list} 
+        return {"time":time, "quizi":new_list} 
 
 def take_quiz(quizie):
     try: 
@@ -101,16 +101,16 @@ def take_quiz(quizie):
     count_wronganswer = 0
 
     quizcontent = quiz_content(quizie)
-    questions = quizcontent['quiz']
+    questions = quizcontent['quizi']
     timelimit = quizcontent['time']
     answers_to_questions = []
     start = time.time()
     you_cant_continue = False
 
     for question in questions:
-        print question
         if (time.time()-start)>time:
             you_cant_continue = True
+
 
         print question.display_questions_and_choices()
 
@@ -125,7 +125,11 @@ def take_quiz(quizie):
             
         else:
             count_wronganswer = count_wronganswer + 1
-            print "Wrong answer"
+            print "Wrong answer." 
+            
+            print "The correct answer should be option:", question 
+
+
             
 
     if len(answers_to_questions) == len (questions):
@@ -141,6 +145,7 @@ def take_quiz(quizie):
                     {"What is your score":results},
                     {"Answers you got right":count_rightanswer},
                     {"Answers you got wrong":count_wronganswer},
+                    
 
                     ]
     return score_board

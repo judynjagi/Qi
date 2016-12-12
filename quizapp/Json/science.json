@@ -1,0 +1,44 @@
+{"quiz_name": "Simple science",
+"time":20,
+"quiz":[{
+    "questions":"When a gas is turned into a liquid, the process is called?",
+     
+    "options": {
+        "A":"condensation",
+        "B":"evaporation", 
+        "C":"deposition", 
+        "D":"sublimation"},
+     
+     "answer": "A"
+
+    },{
+    "questions":"Which of the following parts of the sun is easily visible only during a total solar eclipse?",
+    "options": {
+        "A":"core.",
+        "B":"photosphere.", 
+        "C":"sunspots.", 
+        "D":"corona"},
+    "answer": "D"
+
+    },{
+    "questions":" Which of the following is most likely to cause a rise in the average temperature of earth's atmosphere in future?",
+    "options": {
+        "A":"Atomic warfare",
+        "B":"CO2 from fossil fuels", 
+        "C":"Dust clouds from volcanoes", 
+        "D":"Depletion of earth's zone layer"},
+    "answer": "B"
+
+
+    },{
+    "questions":" The accumulation of stress along the boundaries of lithospheric plates results in which of the following?",
+    "options": {
+        "A":"Earthquakes",
+        "B":"Magnetic reversals", 
+        "C":"Hurricanes", 
+        "D":"Increased deposition of deep-sea sediments"},
+    "answer": "A" 
+
+    }
+]
+}

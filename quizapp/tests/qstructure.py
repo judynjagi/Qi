@@ -5,7 +5,8 @@ class Qstructure():
 		self.answer=answer
 
 	def __repr__(self): # 
-		return "Q: {}, C: {}, A: {}".format(self.question, self.ans_options, self.answer) 
+		#return "Q: {} '\n' '\n' C: {}".format(self.question, self.ans_options) 
+		return "A: {}".format(self.answer)
 
 
 	def correct_answer(self, users_answer): 
@@ -25,12 +26,10 @@ class Qstructure():
 		''' When a user gives an answer, the output should be in this format'''
 		question_answer = self.question + '\n'
 		for index, letter in enumerate(self.ans_options):
-			if type(letter)==str:
-				question_answer= question_answer + '\n' + letter.strip().upper() + '' 		
-				self.ans_options[letter] + '\n'
+			question_answer += letter.strip().upper() + ').' + ' ' + self.ans_options[letter] + '\n'
 		return question_answer
 
-		
+		 
 
 
 

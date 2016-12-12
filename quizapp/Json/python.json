@@ -1,9 +1,9 @@
 {"quiz_name": "Python ",
-"time":20,
+"time":5,
 "quiz":[{
     "questions":"Which of the following data types is not supported in python?",
     "options": {
-        "A":"Numbers",
+        "A":"Numbers", 
         "B":"String", 
         "C":"List", 
         "D":"Slice"},

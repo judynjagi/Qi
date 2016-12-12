@@ -50,11 +50,7 @@ class MyInteractive (cmd.Cmd):
     prompt = '(quiz)> '
     file = None
 
-    @docopt_cmd
-    def do_tcp(self, arg):
-        """Usage: tcp <host> <port> [--timeout=<seconds>]"""
-
-        print(arg)
+ 
     @docopt_cmd
     def do_allquizzes(self, *args):
         """Usage: allquizzes <allquizzes>"""
