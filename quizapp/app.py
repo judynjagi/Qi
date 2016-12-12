@@ -150,7 +150,6 @@ def take_quiz(quizie):
                     ]
     return score_board
 
-#print take_quiz('python')
 
 
 
