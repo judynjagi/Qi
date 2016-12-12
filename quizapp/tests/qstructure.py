@@ -5,7 +5,7 @@ class Qstructure():
 		self.answer=answer
 
 	def __repr__(self): # 
-		#return "Q: {} '\n' '\n' C: {}".format(self.question, self.ans_options) 
+		
 		return "A: {}".format(self.answer)
 
 
